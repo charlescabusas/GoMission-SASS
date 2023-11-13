@@ -1,0 +1,34 @@
+.header {
+  background: $clr-dark;
+  padding: 1rem 0;
+  &__wrapper {
+    @include centerAll;
+  }
+  .branding {
+    h3 {
+      color: $clr-light;
+    }
+  }
+  &__nav {
+    display: none;
+    ul {
+      li {
+        a {
+          color: $clr-light;
+        }
+      }
+    }
+  }
+  .toggle__menu {
+    span {
+      width: 2.5rem;
+      height: 0.3rem;
+      background-color: $clr-light;
+      border-radius: 5rem;
+      display: block;
+      &:nth-child(2) {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
